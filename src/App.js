@@ -1,12 +1,18 @@
-import React from "react";
-import "./App.css";
+import React, { Component } from "react";
+import { Switch } from "react-router-dom";
+import { Layout } from "antd";
+const { Content } = Layout;
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header"></header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Layout style={{ height: "100%", background: "none" }}>
+        <Content>
+          <Switch></Switch>
+        </Content>
+      </Layout>
+    );
+  }
 }
 
 export default App;
