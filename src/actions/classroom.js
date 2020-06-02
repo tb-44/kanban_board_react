@@ -55,15 +55,15 @@ export function getClassInfoRequest(classID) {
 }
 
 /* select class */
-export function selectClass(classInfo) {
-  return { type: types.SELECT_CLASS, classInfo };
-}
+// export function selectClass(classInfo) {
+//   return { type: types.SELECT_CLASS, classInfo };
+// }
 
-export function selectClassRequest(classInfo) {
-  return (dispatch) => {
-    dispatch(selectClass(classInfo));
-  };
-}
+// export function selectClassRequest(classInfo) {
+//   return (dispatch) => {
+//     dispatch(selectClass(classInfo));
+//   };
+// }
 
 /* get class student */
 export function getClassStudent() {

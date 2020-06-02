@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
-//import { Link } from "react-router-dom";
 import { connect } from "react-redux";
 import { logoutRequest } from "../actions/auth";
 import { getMessageRequest, putReadMessageRequest } from "../actions/message";
-import { Menu, Dropdown, Button, Tag, Badge, Icon, message } from "antd";
+import { Menu, Dropdown, Button, Tag, Badge, message } from "antd";
+import Icon from "@ant-design/icons";
 
 class Profile extends Component {
   constructor(props) {

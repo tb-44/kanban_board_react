@@ -3,7 +3,8 @@ import { withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import { loginRequest } from "../actions/auth";
 import { getClassListRequest } from "../actions/classroom";
-import { Layout, Form, Input, Icon, Button, message } from "antd";
+import { Layout, Form, Input, Button, message } from "antd";
+import Icon from "@ant-design/icons";
 const { Content } = Layout;
 const FormItem = Form.Item;
 

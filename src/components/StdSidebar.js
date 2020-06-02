@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import { Link, withRouter } from "react-router-dom";
 import { connect } from "react-redux";
-//import Profile from "./Profile";
-import { Menu, Icon } from "antd";
-//const { Item } = Menu;
+import { Menu } from "antd";
+import Icon from "@ant-design/icons";
 
 class StdSidebar extends Component {
   constructor(props) {

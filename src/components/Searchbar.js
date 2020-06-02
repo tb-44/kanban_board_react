@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import { withRouter } from "react-router-dom";
 import { connect } from "react-redux";
 import { getSearchProjectRequest } from "../actions/search";
-import { Layout, Input, Icon, message } from "antd";
+import { Layout, Input, message } from "antd";
+import Icon from "@ant-design/icons";
 const { Header } = Layout;
 
 class Searchbar extends Component {

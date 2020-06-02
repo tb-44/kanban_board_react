@@ -4,17 +4,8 @@ import { connect } from "react-redux";
 import { post } from "axios";
 import { putKanbanInfoRequest, deleteKanbanRequest } from "../actions/kanban";
 import KanbanFeedback from "./KanbanFeedback";
-import {
-  Modal,
-  Button,
-  Icon,
-  Row,
-  Col,
-  Divider,
-  Input,
-  message,
-  Spin,
-} from "antd";
+import { Modal, Button, Row, Col, Divider, Input, message, Spin } from "antd";
+import Icon from "@ant-design/icons";
 const { TextArea } = Input;
 
 class KanbanInfo extends Component {

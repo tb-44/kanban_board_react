@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import { Link, withRouter } from "react-router-dom";
 import { connect } from "react-redux";
-import { Menu, Icon } from "antd";
+import { Menu } from "antd";
+import Icon from "@ant-design/icons";
 
 class ProfSidebar extends Component {
   constructor(props) {
