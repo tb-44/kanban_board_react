@@ -41,7 +41,7 @@ const reorder = (startIndex, endIndex, list, list2) => {
   }
 };
 
-// using some little inline style helpers to make the app look okay
+// using inline style helpers to make the app look better
 const grid = 8;
 
 // Item -> Kanban
